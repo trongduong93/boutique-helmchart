@@ -107,7 +107,7 @@ emailService:
 frontend:
   create: true
   name: frontend
-  image: vietchita/boutique-frontend:latest
+  image: vietchita/boutique-frontend:1102063
   ingress:
     enabled: true
     className: "nginx"
