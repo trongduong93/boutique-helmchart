@@ -179,7 +179,7 @@ productCatalogService:
 recommendationService:
   create: true
   name: recommendationservice
-  image: vietchita/boutique-recommendationservice:latest
+  image: vietchita/boutique-recommendationservice:42d5fdb
   resources:
     requests:
       cpu: 100m
