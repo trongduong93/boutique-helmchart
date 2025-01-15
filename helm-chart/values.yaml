@@ -155,7 +155,7 @@ loadGenerator:
 paymentService:
   create: true
   name: paymentservice
-  image: vietchita/boutique-paymentservice:latest
+  image: vietchita/boutique-paymentservice:42d5fdb
   resources:
     requests:
       cpu: 100m
