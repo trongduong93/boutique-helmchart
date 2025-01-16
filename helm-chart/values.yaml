@@ -166,7 +166,7 @@ paymentService:
 productCatalogService:
   create: true
   name: productcatalogservice
-  image: vietchita/boutique-productcatalogservice:ver-cecbb61
+  image: vietchita/boutique-productcatalogservice:ver-77d8a74
   # Specifies an extra latency to any request on productcatalogservice, by default no extra latency.
   extraLatency: ""
   resources:
