@@ -52,7 +52,7 @@ securityContext:
 adService:
   create: true
   name: adservice
-  image: vietchita/boutique-adservice:latest
+  image: trongduonghsht/trongdd-adservice:latest
   resources:
     requests:
       cpu: 200m
@@ -63,7 +63,7 @@ adService:
 cartService:
   create: true
   name: cartservice
-  image: vietchita/boutique-cartservice:latest
+  image: trongduonghsht/trongdd-cartservice:latest
   resources:
     requests:
       cpu: 200m
@@ -74,7 +74,7 @@ cartService:
 checkoutService:
   create: true
   name: checkoutservice
-  image: vietchita/boutique-checkoutservice:latest
+  image: trongduonghsht/trongdd-checkoutservice:latest
   resources:
     requests:
       cpu: 100m
@@ -85,7 +85,7 @@ checkoutService:
 currencyService:
   create: true
   name: currencyservice
-  image: vietchita/boutique-currencyservice:latest
+  image: trongduonghsht/trongdd-currencyservice:latest
   resources:
     requests:
       cpu: 100m
@@ -96,7 +96,7 @@ currencyService:
 emailService:
   create: true
   name: emailservice
-  image: vietchita/boutique-emailservice:latest
+  image: trongduonghsht/trongdd-emailservice:latest
   resources:
     requests:
       cpu: 100m
@@ -107,7 +107,7 @@ emailService:
 frontend:
   create: true
   name: frontend
-  image: vietchita/boutique-frontend:ver-5d9bc8a
+  image: trongduonghsht/trongdd-frontend:ver-5d9bc8a
   ingress:
     enabled: true
     className: "nginx"
@@ -143,7 +143,7 @@ frontend:
 loadGenerator:
   create: true
   name: loadgenerator
-  image: vietchita/boutique-loadgenerator:42d5fdb
+  image: trongduonghsht/trongdd-loadgenerator:42d5fdb
   checkFrontendInitContainer: true
   resources:
     requests:
@@ -155,7 +155,7 @@ loadGenerator:
 paymentService:
   create: true
   name: paymentservice
-  image: vietchita/boutique-paymentservice:42d5fdb
+  image: trongduonghsht/trongdd-paymentservice:42d5fdb
   resources:
     requests:
       cpu: 100m
@@ -166,7 +166,7 @@ paymentService:
 productCatalogService:
   create: true
   name: productcatalogservice
-  image: vietchita/boutique-productcatalogservice:ver-77d8a74
+  image: trongduonghsht/trongdd-productcatalogservice:ver-77d8a74
   # Specifies an extra latency to any request on productcatalogservice, by default no extra latency.
   extraLatency: ""
   resources:
@@ -179,7 +179,7 @@ productCatalogService:
 recommendationService:
   create: true
   name: recommendationservice
-  image: vietchita/boutique-recommendationservice:42d5fdb
+  image: trongduonghsht/trongdd-recommendationservice:42d5fdb
   resources:
     requests:
       cpu: 100m
@@ -190,7 +190,7 @@ recommendationService:
 shippingService:
   create: true
   name: shippingservice
-  image: vietchita/boutique-shippingservice:latest
+  image: trongduonghsht/trongdd-shippingservice:latest
   resources:
     requests:
       cpu: 100m
