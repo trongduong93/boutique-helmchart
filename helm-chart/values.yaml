@@ -115,7 +115,7 @@ frontend:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
     hosts:
-      - host: boutique.vietops.com
+      - host: boutique.trongops.com
         paths:
           - path: /
             pathType: Prefix
