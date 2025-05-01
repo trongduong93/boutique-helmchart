@@ -144,7 +144,7 @@ loadGenerator:
   create: true
   name: loadgenerator
   image: trongduonghsht/trongdd-loadgenerator:42d5fdb
-  checkFrontendInitContainer: true
+  checkFrontendInitContainer: false
   resources:
     requests:
       cpu: 300m
